@@ -1,45 +1,42 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-  <h1>Allison Bolger</h1>
+  <header>
+    <h1>Allison Bolger</h1>
+  </header>
 
-  <img src="https://i2.wp.com/metro.co.uk/wp-content/uploads/2013/08/ay102463260film-e-t-the-ex.jpg?quality=90&strip=all&zoom=1&resize=644%2C415" alt="be good">
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <br>
+        <img id="bio-image" src="https://i2.wp.com/metro.co.uk/wp-content/uploads/2013/08/ay102463260film-e-t-the-ex.jpg?quality=90&strip=all&zoom=1&resize=644%2C415" " alt="Be Good">
+      </section>
+      <p>Originally from Santa Rosa, CA, I have lived in Portland for 5 years now.</p>
+        <p>I love to explore new restaurants, hike in the beautiful PNW, organize my friends' closets, play board games, and binge watch Big Brother.</p>
+        <p>Favorite quote: "Be good," - ET</p>
+ </section>
 
-  <p>Originally from Santa Rosa, CA, I have lived in Portland for 5 years now.</p>
-  <p>I love to explore new restaurants, hike in the beautiful PNW, and binge watch Big Brother.</p>
-  <p>Favorite quote: "Be good," - ET</p>
-  <ul>
-    <li><strong>Email:</strong> <a href="#">allisoncbolger@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">https://github.com/bolge</a></li>
-    <li><strong>Instagram:</strong> <a href="#">https://www.instagram.com/bolgeface/</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Movies</th>
-      <th>Activities</th>
-    </tr>
-    <tr>
-      <td>Best in Show</td>
-      <td>Board Games</td>
-    </tr>
-    <tr>
-      <td>Now and Then</td>
-      <td>Hiking</td>
-    </tr>
-    <tr>
-      <td>ET</td>
-      <td>Organizing</td>
-    </tr>
-  </table>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">allisoncbolger@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">https://github.com/bolge</a></li>
+        <li><strong>Instagram:</strong> <a href="#">https://www.instagram.com/bolgeface/</a></li>
+      </ul>
+    </aside>
+  </main>
 
 </body>
 
 </html>
-
